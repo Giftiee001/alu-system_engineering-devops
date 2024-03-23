@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#!/bin/bash
-
-# Server details
-server_ip="3.80.33.136"
-user="ubuntu"
-
-# SSH command with private key
-ssh -i ~/.ssh/school $user@$server_ip
